@@ -21,5 +21,29 @@ let booleanValue = Boolean(isLoggedIn)
 
 let someNumber = 10
 let stringValue = String(someNumber)
-console.log(stringValue)
-console.log(typeof stringValue)
+// console.log(stringValue)
+// console.log(typeof stringValue)
+
+/* *********************** Operations ********************** */
+
+let value = 1
+let negValue = -value;
+// console.log(negValue)
+
+let str1 = "Hello"
+let str2 = " Tinku!"
+let str3 = str1 + str2
+// console.log(str3)
+
+// console.log( 1 + 2 )
+// console.log( 1 + "2")
+// console.log( "1" + 2 )
+// console.log( "1" + 2 + 2 )
+// console.log( 1 + 2 + "2")
+
+let gameScore = 100
+++gameScore
+// console.log(gameScore)
+
+// console.log(+true)
+// console.log(+"")
